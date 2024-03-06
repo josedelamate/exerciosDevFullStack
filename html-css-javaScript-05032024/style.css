@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    transition: 0.4s;
+    background-color: lightgray;
+}
+
+div {
+    margin: 5px;
+    padding: auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;    
+}
+
+nav ul li a {
+    text-decoration:  none; /* retirar a linha do link */  
+    color : #fff;        /* colocar cor no texto do link */
+}
+
+header button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+.dark-mode header {
+    background-color: #555;
+    color: #fff;
+}
+.dark-mode button {
+    background-color: #555;
+}
+
+
+#produto {
+    background-color: beige;
+    border: 1px blue solid;
+    border-radius: 5px;
+}
+
+#enviar {
+    background-color: lightgoldenrodyellow;
+    border: 3px blue outset;
+    border-radius: 5px;
+}
+
+.novo-tema {
+    background-color: rgb(92, 58, 8);
+    color: brown;
+}
